@@ -2,7 +2,8 @@ var recipes = [
   {
     name: "Creamy Spaghetti Carbonara",
     description: "A classic Italian pasta dish with eggs, cheese, and pancetta",
-    imgCover: "./img/imgi_2_photo-1455619452474-d2be8b1e70cd.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "20 min",
     servings: "4 people",
@@ -43,7 +44,8 @@ var recipes = [
   {
     name: "Honey Garlic Salmon",
     description: "Pan-seared salmon with a sweet and savory glaze",
-    imgCover: "./img/imgi_2_photo-1529692236671-f1f6cf9683ba.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
     prepTime: "10 min",
     cookTime: "15 min",
     servings: "2 people",
@@ -81,7 +83,8 @@ var recipes = [
   {
     name: "Thai Green Curry",
     description: "Vibrant and aromatic curry with vegetables and coconut milk",
-    imgCover: "./img/imgi_2_photo-1546069901-ba9599a7e63c.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "25 min",
     servings: "4 people",
@@ -118,7 +121,8 @@ var recipes = [
   {
     name: "Classic Beef Burger",
     description: "Juicy homemade burger with all the fixings",
-    imgCover: "./img/imgi_2_photo-1574894709920-11b28e7367e3.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "20 min",
     servings: "4 people",
@@ -155,7 +159,8 @@ var recipes = [
   {
     name: "Mediterranean Quinoa Bowl",
     description: "Healthy bowl with quinoa, vegetables, and tahini dressing",
-    imgCover: "./img/imgi_2_photo-1585032226651-759b368d7246.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
     prepTime: "20 min",
     cookTime: "35 min",
     servings: "2 people",
@@ -194,7 +199,8 @@ var recipes = [
   {
     name: "Chicken Tikka Masala",
     description: "Rich and creamy Indian curry with tender chicken pieces",
-    imgCover: "./img/imgi_2_photo-1601050690597-df0568f70950.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=800&auto=format&fit=crop",
     prepTime: "20 min",
     cookTime: "30 min",
     servings: "4 people",
@@ -231,7 +237,8 @@ var recipes = [
   {
     name: "Margherita Pizza",
     description: "Classic Italian pizza with fresh mozzarella and basil",
-    imgCover: "./img/imgi_2_photo-1455619452474-d2be8b1e70cd.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=800&auto=format&fit=crop",
     prepTime: "90 min",
     cookTime: "12 min",
     servings: "2 people",
@@ -268,7 +275,8 @@ var recipes = [
   {
     name: "Beef Tacos",
     description: "Flavorful Mexican tacos with seasoned ground beef",
-    imgCover: "./img/imgi_2_photo-1529692236671-f1f6cf9683ba.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "20 min",
     servings: "4 people",
@@ -307,7 +315,8 @@ var recipes = [
   {
     name: "Caesar Salad",
     description: "Classic salad with crispy romaine and creamy dressing",
-    imgCover: "./img/imgi_2_photo-1546069901-ba9599a7e63c.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "0 min",
     servings: "2 people",
@@ -339,7 +348,8 @@ var recipes = [
   {
     name: "Pad Thai",
     description: "Popular Thai stir-fried noodles with shrimp and peanuts",
-    imgCover: "./img/imgi_2_photo-1574894709920-11b28e7367e3.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=800&auto=format&fit=crop",
     prepTime: "20 min",
     cookTime: "15 min",
     servings: "2 people",
@@ -378,7 +388,8 @@ var recipes = [
   {
     name: "French Onion Soup",
     description: "Rich beef broth with caramelized onions and melted cheese",
-    imgCover: "./img/imgi_2_photo-1585032226651-759b368d7246.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "60 min",
     servings: "4 people",
@@ -416,7 +427,8 @@ var recipes = [
   {
     name: "Chicken Stir-Fry",
     description: "Quick and healthy stir-fry with colorful vegetables",
-    imgCover: "./img/imgi_2_photo-1601050690597-df0568f70950.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "15 min",
     servings: "4 people",
@@ -454,7 +466,8 @@ var recipes = [
   {
     name: "Lasagna Bolognese",
     description: "Layered Italian pasta with rich meat sauce and béchamel",
-    imgCover: "./img/imgi_2_photo-1455619452474-d2be8b1e70cd.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
     prepTime: "30 min",
     cookTime: "90 min",
     servings: "4 people",
@@ -487,7 +500,8 @@ var recipes = [
   {
     name: "Shrimp Scampi",
     description: "Garlicky shrimp in white wine butter sauce",
-    imgCover: "./img/imgi_2_photo-1529692236671-f1f6cf9683ba.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
     prepTime: "10 min",
     cookTime: "15 min",
     servings: "2 people",
@@ -519,7 +533,8 @@ var recipes = [
   {
     name: "Vegetable Curry",
     description: "Hearty vegetarian curry with coconut milk",
-    imgCover: "./img/imgi_2_photo-1546069901-ba9599a7e63c.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?q=80&w=800&auto=format&fit=crop",
     prepTime: "20 min",
     cookTime: "30 min",
     servings: "4 people",
@@ -551,7 +566,8 @@ var recipes = [
   {
     name: "BBQ Pulled Pork",
     description: "Slow-cooked tender pork in smoky barbecue sauce",
-    imgCover: "./img/imgi_2_photo-1574894709920-11b28e7367e3.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "240 min",
     servings: "4 people",
@@ -583,7 +599,8 @@ var recipes = [
   {
     name: "Greek Moussaka",
     description: "Traditional layered eggplant casserole with lamb",
-    imgCover: "./img/imgi_2_photo-1574894709920-11b28e7367e3.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=800&auto=format&fit=crop",
     prepTime: "30 min",
     cookTime: "60 min",
     servings: "4 people",
@@ -615,7 +632,8 @@ var recipes = [
   {
     name: "Teriyaki Chicken Bowl",
     description: "Sweet and savory chicken over rice with vegetables",
-    imgCover: "./img/imgi_2_photo-1574894709920-11b28e7367e3.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
     prepTime: "15 min",
     cookTime: "20 min",
     servings: "2 people",
@@ -644,7 +662,8 @@ var recipes = [
   {
     name: "Caprese Sandwich",
     description: "Fresh Italian sandwich with mozzarella, tomato, and basil",
-    imgCover: "./img/imgi_2_photo-1585032226651-759b368d7246.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop",
     prepTime: "10 min",
     cookTime: "5 min",
     servings: "2 people",
@@ -682,7 +701,8 @@ var recipes = [
   {
     name: "Grilled Steak",
     description: "Juicy ribeye steak seasoned with herbs and garlic butter",
-    imgCover: "./img/imgi_2_photo-1601050690597-df0568f70950.avif",
+    imgCover:
+      "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=800&auto=format&fit=crop",
     prepTime: "5 min",
     cookTime: "20 min",
     servings: "1 person",
