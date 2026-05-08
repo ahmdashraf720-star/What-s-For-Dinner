@@ -1,0 +1,465 @@
+/*****! Global Section *****/
+
+:root {
+  --main-color: #ff6900;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-color {
+  color: #ff6900;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/*****! End Global Section *****/
+
+/*? ======================================================================================= */
+
+/***** Navbar Section *****/
+
+.my-nav {
+  border-bottom: 0.05rem solid #ffedd4;
+}
+
+.my-nav .icon-page {
+  width: 48px;
+  height: 48px;
+  background: #ff5e00;
+  background: linear-gradient(
+    144deg,
+    rgba(255, 94, 0, 1) 38%,
+    rgba(253, 65, 42, 1) 80%
+  );
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.my-nav .icon-page i {
+  font-size: 1.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-nav .contant-page h6 {
+  font-size: 1.5rem;
+}
+
+.my-nav .contant-page p {
+  font-size: 0.875rem;
+  color: oklch(0.551 0.027 264.364);
+}
+
+.my-nav .icons-nav i {
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+
+.my-nav .icons-nav i:hover {
+  color: var(--main-color) !important;
+  cursor: pointer;
+}
+
+.my-nav .icons-nav img {
+  border: 2px solid #ffb86a;
+}
+
+.my-nav .navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  transition: 0.4s;
+}
+
+.my-nav .navbar-toggler:hover {
+  color: var(--main-color) !important;
+}
+
+@media (max-width: 991px) {
+  .my-nav .icon-page {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .my-nav .contant-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .my-nav .icon-page i {
+    font-size: 1rem;
+  }
+
+  .my-nav .contant-page {
+    gap: 1 !important;
+  }
+
+  .my-nav .contant-page h6 {
+    font-size: 1.2rem;
+  }
+
+  .my-nav .contant-page p {
+    font-size: 0.75rem;
+    color: oklch(0.551 0.027 264.364);
+  }
+
+  .my-nav .navbar-collapse {
+    background: #fff !important;
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+
+  .my-nav .icons-nav {
+    flex-direction: column !important; /* تحت بعض */
+    align-items: flex-start;
+    gap: 10px !important;
+    margin: 0 !important;
+    transition: 0.4s;
+  }
+
+  .my-nav .icons-nav i {
+    margin-left: 6px !important;
+  }
+  .my-nav .icons-nav img {
+    margin: 5px 0;
+  }
+
+  .my-nav .icons-nav .info {
+    display: block !important;
+    transition: 0.4s;
+  }
+
+  .my-nav .icons-nav .info:hover {
+    color: var(--main-color) !important;
+  }
+}
+
+/***** End Navbar Section *****/
+
+/*? ======================================================================================= */
+
+/***** hero Section *****/
+
+.my-menu {
+  background-color: #fffbea !important;
+}
+
+.recipe-main-container {
+  display: flex;
+  align-items: stretch;
+  height: 750px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-visual-side {
+  display: flex;
+  flex-direction: column;
+  padding: 0 !important;
+  height: 100%;
+}
+
+.recipe-visual-side .img-card {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.recipe-visual-side .img-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 300px;
+}
+
+.my-menu .Stats-Card {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  right: 10px;
+  background: white;
+  border-radius: 15px;
+  z-index: 5;
+}
+
+.recipe-content-side {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.tab-content {
+  flex-grow: 1;
+
+  padding-right: 10px;
+  height: 370px;
+}
+
+.Stats-Card small {
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+.Stats-Card .fw-bold {
+  color: #1a1a1b;
+  font-size: 0.9rem;
+}
+
+.my-menu .actions .btn {
+  color: var(--main-color) !important;
+  background-color: #ffedd4 !important;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.my-menu .actions .btn:hover {
+  background-color: #ffd6a7 !important;
+}
+
+.my-menu .nav-tabs .nav-link {
+  color: #666;
+  border: none;
+  font-weight: 600;
+}
+.my-menu .nav-tabs .nav-link.active {
+  color: #ff5e14 !important;
+  border-bottom: 3px solid #ff5e14 !important;
+  background: none;
+}
+
+.my-menu .list-group,
+.my-menu .list-group-item {
+  background-color: #fff8ec !important;
+}
+
+.my-menu .bg-orange {
+  background-color: #ff5e14 !important;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-menu .ingredients-container::-webkit-scrollbar {
+  width: 4px;
+}
+.my-menu .ingredients-container::-webkit-scrollbar-thumb {
+  background-color: #ff5e146f;
+  border-radius: 10px;
+}
+
+.my-menu .step-number {
+  background-color: #ff5e14;
+  color: white;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.my-menu .nutrition-card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-menu .nutrition-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.my-menu .tip-card {
+  background-color: #fffdf2 !important ;
+  border-radius: 10px;
+  border-left: 5px solid #ffb900 !important ;
+}
+
+.my-menu .text-orange {
+  color: #ff5e14 !important;
+}
+
+.my-menu .btn-recipe-refresh {
+  background: linear-gradient(to right, #ff5e14, #ff2e2e);
+  color: white;
+  border-radius: 12px;
+  padding: 12px 25px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.my-menu .btn-recipe-refresh:hover {
+  background-color: #ed2a00 !important;
+  transform: scale(1.03);
+}
+
+@media (max-width: 991.98px) {
+  .recipe-main-container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .recipe-visual-side {
+    height: 350px;
+  }
+
+  .recipe-content-side {
+    height: auto;
+    padding: 20px;
+  }
+
+  .tab-content {
+    height: auto;
+    max-height: none;
+  }
+
+  .my-menu .nav-tabs {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .my-menu .nav-tabs .nav-link {
+    flex: 1;
+    padding: 8px 4px !important;
+    font-size: 11px !important;
+    text-align: center;
+    white-space: normal;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-menu .nav-tabs .nav-link i {
+    font-size: 14px !important;
+    margin-right: 0 !important;
+    margin-bottom: 4px;
+  }
+
+  .my-menu .header h1 {
+    font-size: 1.2rem !important;
+  }
+
+  .my-menu .header p {
+    font-size: 0.75rem !important;
+  }
+
+  .my-menu .actions {
+    display: flex;
+    gap: 5px;
+  }
+
+  .my-menu .actions .btn {
+    padding: 5px 10px !important;
+    font-size: 12px;
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .my-menu .header h1 {
+    font-size: 1.04rem !important;
+  }
+
+  .my-menu .header p {
+    font-size: 0.7rem !important;
+  }
+
+  .my-menu .instruction {
+    font-size: 0.8rem !important;
+    font-weight: 600;
+  }
+
+  .my-menu .step-number {
+    background-color: #ff5e14;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 35%;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .my-menu .nutrition-card {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .my-menu .nutrition-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .my-menu .nutrition-card .num {
+    font-size: 0.7rem !important;
+    font-weight: 400 !important;
+  }
+
+  .my-menu .nutrition-card span {
+    font-size: 0.7rem !important;
+  }
+
+  .my-menu .tips {
+    font-size: 0.8rem !important;
+  }
+
+  .my-menu .Stats-Card {
+    bottom: 10px;
+    left: 5px;
+    right: 5px;
+    padding: 10px !important;
+  }
+  .Stats-Card .fw-bold {
+    font-size: 0.75rem;
+  }
+}
+
+/***** End hero Section *****/
+
+/*? ======================================================================================= */
